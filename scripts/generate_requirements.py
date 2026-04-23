@@ -1,7 +1,7 @@
-# scripts/generate_requirements.py
 import json
 import re
 import argparse
+import os
 
 # ---------- Arguments ----------
 parser = argparse.ArgumentParser(description="Generate requirement JSON from CFR Markdown")
@@ -14,16 +14,18 @@ INPUT_MD = args.input
 OUTPUT_JSON = args.output
 CFR_SECTION = args.cfr
 
+# Derive path for expected_structure.json based on output directory
+EXPECTED_STRUCT_JSON = os.path.join(os.path.dirname(OUTPUT_JSON), "expected_structure.json")
+
 # ---------- Read File ----------
 with open(INPUT_MD, "r") as f:
     lines = [line.strip() for line in f if line.strip()]
 
-requirements = []
+all_requirements = []
 current_req = None
 
 # ---------- Parse ----------
 for line in lines:
-
     # Capture REQ ID
     req_match = re.search(r"→\s*(REQ-[\d\.]+-\d+)", line)
     if req_match:
@@ -33,26 +35,53 @@ for line in lines:
     # Capture atomic rules
     atomic_match = re.match(r"^(.*?)\s*→\s*([A-Z]\d*)$", line)
     if atomic_match and current_req:
-        description = atomic_match.group(1).strip()
+        raw_description = atomic_match.group(1).strip()
+        
+        # Requirement: Ignore parent/child numbering in the Markdown
+        clean_description = re.sub(r"^[-*]\s*(\([a-z0-9]+\))?\s*", "", raw_description).strip()
+        
         suffix = atomic_match.group(2)
-
         requirement_id = f"{current_req}{suffix}"
 
-        # Parent logic
+        # Requirement: Correctly assign parent/child relationships
         if len(suffix) == 1:
             parent = current_req
         else:
             parent = f"{current_req}{suffix[0]}"
 
-        requirements.append({
+        all_requirements.append({
             "requirement_id": requirement_id,
-            "description": description,
+            "description": clean_description,
             "source": CFR_SECTION,
-            "parent": parent
+            "parent": parent,
+            "suffix": suffix
         })
 
-# ---------- Save ----------
-with open(OUTPUT_JSON, "w") as f:
-    json.dump(requirements, f, indent=2)
+# Pick 10 atomic rules
+selected_requirements = all_requirements[:10]
 
-print(f"Saved {len(requirements)} requirements → {OUTPUT_JSON}")
+# Generate expected_structure.json mapping
+expected_structure = {}
+final_requirements = []
+
+for req in selected_requirements:
+    parent = req["parent"]
+    suffix = req.pop("suffix")
+    
+    if parent not in expected_structure:
+        expected_structure[parent] = []
+    
+    if suffix not in expected_structure[parent]:
+        expected_structure[parent].append(suffix)
+        
+    final_requirements.append(req)
+
+# ---------- Save Outputs ----------
+with open(OUTPUT_JSON, "w") as f:
+    json.dump(final_requirements, f, indent=2)
+
+with open(EXPECTED_STRUCT_JSON, "w") as f:
+    json.dump(expected_structure, f, indent=2)
+
+print(f"Saved 10 requirements → {OUTPUT_JSON}")
+print(f"Saved expected structure → {EXPECTED_STRUCT_JSON}")
