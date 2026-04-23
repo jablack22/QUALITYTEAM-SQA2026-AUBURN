@@ -37,13 +37,13 @@ for line in lines:
     if atomic_match and current_req:
         raw_description = atomic_match.group(1).strip()
         
-        # Requirement: Ignore parent/child numbering in the Markdown
+        # Ignore parent/child numbering in the Markdown
         clean_description = re.sub(r"^[-*]\s*(\([a-z0-9]+\))?\s*", "", raw_description).strip()
         
         suffix = atomic_match.group(2)
         requirement_id = f"{current_req}{suffix}"
 
-        # Requirement: Correctly assign parent/child relationships
+        # Correctly assign parent/child relationships
         if len(suffix) == 1:
             parent = current_req
         else:

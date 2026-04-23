@@ -1,0 +1,33 @@
+name: SQA V&V Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run Validation Script
+        run: python scripts/validation.py
+
+      - name: Run Verification Script
+        run: python scripts/verification.py
+        
+      - name: Upload Forensics Log
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: forensics-log
+          path: forensics.log
