@@ -2,9 +2,9 @@ SQA2026 Quality Team Group Report
 
 Jack Blackmon
 - Activities I performed:
-  - 
+  - I built the GitHub Actions CI/CD pipeline seen in .github/workflows.
 - What I've learned: 
-  - 
+  - I learned how to setup the main.yml file to automate our V&V scripts on every push.
 
 Maxwell Achanti
 - Activities I performed:
