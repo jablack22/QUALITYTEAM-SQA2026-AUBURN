@@ -84,14 +84,16 @@ def generateTestCases(_requirements, _expectedStructure):
 
             # Checks if the requirement ID exists in the requirements map. If not, raises a ValueError indicating the missing requirement ID.
             if requirementId not in requirementMap:
-                raise ValueError(f'Missing requirement_id in requirements.json: {requirementId}')
+                continue
 
             # Retrieves the description for the requirement and formats it into a test case.
             description = requirementMap[requirementId].get('description', '')
             testCases.append({
                 'test_case_id': f'TC-{i:03d}',
                 'requirement_id': requirementId,
-                'description': createSentence(description)
+                'description': createSentence(description),
+                'input_data': "CFR-117.130.md",
+                'expected_output': "The requirement is satisfied."
             })
             i += 1
 

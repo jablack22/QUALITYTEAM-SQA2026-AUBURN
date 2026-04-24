@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "test_case_id": "TC-001",
+    "requirement_id": "REQ-117.130-001A",
+    "description": "Verify that hazard analysis is written.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-002",
+    "requirement_id": "REQ-117.130-001B",
+    "description": "Verify that known hazards are identifyed.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-003",
+    "requirement_id": "REQ-117.130-001C",
+    "description": "Verify that reasonably foreseeable hazards are identifyed.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-004",
+    "requirement_id": "REQ-117.130-001D",
+    "description": "Verify that hazards using data, experience, reports are evaluated.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-005",
+    "requirement_id": "REQ-117.130-001E",
+    "description": "Verify that hazards requiring preventive controls are determined.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-006",
+    "requirement_id": "REQ-117.130-002A",
+    "description": "Verify that hazards for origin occur naturally is identified and considered.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-007",
+    "requirement_id": "REQ-117.130-002B",
+    "description": "Verify that or reasonably foreseeable hazards include chemical hazards are knowned.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-008",
+    "requirement_id": "REQ-117.130-002C",
+    "description": "Verify that or reasonably foreseeable hazards include physical hazards are knowned.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  },
+  {
+    "test_case_id": "TC-009",
+    "requirement_id": "REQ-117.130-002A",
+    "description": "Verify that hazards for origin occur naturally is identified and considered.",
+    "input_data": "CFR-117.130.md",
+    "expected_output": "The requirement is satisfied."
+  }
+]

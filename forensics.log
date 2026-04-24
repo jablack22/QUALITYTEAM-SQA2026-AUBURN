@@ -1,0 +1,154 @@
+2026-04-24 11:13:38,762 - INFO - Validation started
+2026-04-24 11:13:38,762 - INFO - Loaded requirements.json successfully
+2026-04-24 11:13:38,763 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:13:38,763 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:13:38,763 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:13:44,147 - INFO - Validation started
+2026-04-24 11:13:44,147 - INFO - Loaded requirements.json successfully
+2026-04-24 11:13:44,148 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:13:44,148 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:13:44,148 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:13:44,148 - ERROR - Validation failed: missing requirement suffix A under parent REQ-117.130-001
+2026-04-24 11:13:53,109 - INFO - Validation started
+2026-04-24 11:13:53,109 - INFO - Loaded requirements.json successfully
+2026-04-24 11:13:53,110 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:13:53,110 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:13:53,110 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:13:53,110 - ERROR - Validation failed: missing requirement suffix A under parent REQ-117.130-001
+2026-04-24 11:14:05,694 - INFO - Validation started
+2026-04-24 11:14:05,695 - INFO - Loaded requirements.json successfully
+2026-04-24 11:14:05,695 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:14:05,695 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:14:05,695 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:14:05,695 - ERROR - Validation failed: missing requirement suffix A under parent REQ-117.130-001
+2026-04-24 11:14:14,084 - INFO - Validation started
+2026-04-24 11:14:14,085 - INFO - Loaded requirements.json successfully
+2026-04-24 11:14:14,085 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:14:14,085 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:14:14,085 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:14:14,085 - ERROR - Validation failed: missing requirement suffix A under parent REQ-117.130-001
+2026-04-24 11:14:33,716 - INFO - Validation started
+2026-04-24 11:14:33,717 - INFO - Loaded requirements.json successfully
+2026-04-24 11:14:33,717 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:14:33,717 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:14:33,717 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:14:33,717 - ERROR - Validation failed: missing requirement suffix A under parent REQ-117.130-001
+2026-04-24 11:14:43,299 - INFO - Validation started
+2026-04-24 11:14:43,300 - INFO - Loaded requirements.json successfully
+2026-04-24 11:14:43,300 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:14:43,300 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:14:43,300 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:14:43,300 - ERROR - Validation failed: missing requirement suffix A under parent REQ-117.130-001
+2026-04-24 11:14:58,696 - INFO - Validation started
+2026-04-24 11:14:58,706 - INFO - Loaded requirements.json successfully
+2026-04-24 11:14:58,706 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:14:58,707 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:14:58,707 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:14:58,707 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:14:58,707 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:14:58,707 - ERROR - Validation failed: missing requirement suffix C under parent REQ-117.130-001
+2026-04-24 11:15:07,888 - INFO - Validation started
+2026-04-24 11:15:07,888 - INFO - Loaded requirements.json successfully
+2026-04-24 11:15:07,888 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:15:07,888 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:15:07,888 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:15:07,889 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:15:07,889 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:15:07,889 - ERROR - Validation failed: missing requirement suffix C under parent REQ-117.130-001
+2026-04-24 11:15:21,229 - INFO - Validation started
+2026-04-24 11:15:21,229 - INFO - Loaded requirements.json successfully
+2026-04-24 11:15:21,229 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:15:21,229 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:15:21,229 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:15:21,229 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:15:21,229 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:15:21,230 - ERROR - Validation failed: missing requirement suffix C under parent REQ-117.130-001
+2026-04-24 11:15:36,728 - INFO - Validation started
+2026-04-24 11:15:36,728 - INFO - Loaded requirements.json successfully
+2026-04-24 11:15:36,728 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:15:36,728 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:15:36,728 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:15:36,728 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:15:36,728 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:15:36,729 - ERROR - Validation failed: missing requirement suffix C under parent REQ-117.130-001
+2026-04-24 11:15:43,584 - INFO - Validation started
+2026-04-24 11:15:43,585 - INFO - Loaded requirements.json successfully
+2026-04-24 11:15:43,585 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:15:43,585 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:15:43,585 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:15:43,585 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:15:43,585 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:15:43,585 - ERROR - Validation failed: missing requirement suffix C under parent REQ-117.130-001
+2026-04-24 11:16:13,450 - INFO - Validation started
+2026-04-24 11:16:13,451 - INFO - Loaded requirements.json successfully
+2026-04-24 11:16:13,451 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:16:13,451 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:16:13,451 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:16:13,451 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:16:13,451 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:16:13,452 - ERROR - Validation failed: missing requirement suffix C under parent REQ-117.130-001
+2026-04-24 11:21:01,811 - INFO - Validation started
+2026-04-24 11:21:01,812 - INFO - Loaded requirements.json successfully
+2026-04-24 11:21:01,812 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:21:01,812 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:21:01,812 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:21:01,812 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:21:01,812 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:21:01,812 - INFO - Found child requirement REQ-117.130-001C with suffix C
+2026-04-24 11:21:01,812 - INFO - Found child requirement REQ-117.130-001D with suffix D
+2026-04-24 11:21:01,813 - INFO - Found child requirement REQ-117.130-001E with suffix E
+2026-04-24 11:21:01,813 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:21:01,813 - ERROR - Validation failed: missing requirement suffix F under parent REQ-117.130-001
+2026-04-24 11:21:15,278 - INFO - Validation started
+2026-04-24 11:21:15,278 - INFO - Loaded requirements.json successfully
+2026-04-24 11:21:15,278 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:21:15,279 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:21:15,279 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:21:15,279 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:21:15,279 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:21:15,279 - INFO - Found child requirement REQ-117.130-001C with suffix C
+2026-04-24 11:21:15,279 - INFO - Found child requirement REQ-117.130-001D with suffix D
+2026-04-24 11:21:15,279 - INFO - Found child requirement REQ-117.130-001E with suffix E
+2026-04-24 11:21:15,279 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:21:15,280 - ERROR - Validation failed: missing requirement suffix F under parent REQ-117.130-001
+2026-04-24 11:22:04,937 - INFO - Validation started
+2026-04-24 11:22:04,943 - INFO - Loaded requirements.json successfully
+2026-04-24 11:22:04,943 - INFO - Loaded expected_structure.json successfully
+2026-04-24 11:22:04,943 - INFO - Validating structure for parent requirement REQ-117.130-001
+2026-04-24 11:22:04,944 - INFO - Expected child suffixes: ['A', 'B', 'C', 'D', 'E', 'F']
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-001A with suffix A
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-001B with suffix B
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-001C with suffix C
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-001D with suffix D
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-001E with suffix E
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-001F with suffix F
+2026-04-24 11:22:04,944 - INFO - Validating structure for parent requirement REQ-117.130-002
+2026-04-24 11:22:04,944 - INFO - Expected child suffixes: ['A', 'B', 'C', 'A']
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-002A with suffix A
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-002B with suffix B
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-002C with suffix C
+2026-04-24 11:22:04,944 - INFO - Found child requirement REQ-117.130-002A with suffix A
+2026-04-24 11:22:04,944 - INFO - Validation completed successfully
+2026-04-24 11:22:42,506 - INFO - Verification started
+2026-04-24 11:22:42,506 - INFO - Loaded requirements.json successfully
+2026-04-24 11:22:42,512 - INFO - Loaded test_cases.json successfully
+2026-04-24 11:22:42,512 - INFO - Collected 10 requirement IDs
+2026-04-24 11:22:42,512 - INFO - Checking test case TC-001 linked to requirement REQ-117.130-001A
+2026-04-24 11:22:42,512 - INFO - Verification passed for test case TC-001
+2026-04-24 11:22:42,512 - INFO - Checking test case TC-002 linked to requirement REQ-117.130-001B
+2026-04-24 11:22:42,512 - INFO - Verification passed for test case TC-002
+2026-04-24 11:22:42,512 - INFO - Checking test case TC-003 linked to requirement REQ-117.130-001C
+2026-04-24 11:22:42,513 - INFO - Verification passed for test case TC-003
+2026-04-24 11:22:42,513 - INFO - Checking test case TC-004 linked to requirement REQ-117.130-001D
+2026-04-24 11:22:42,513 - INFO - Verification passed for test case TC-004
+2026-04-24 11:22:42,513 - INFO - Checking test case TC-005 linked to requirement REQ-117.130-001E
+2026-04-24 11:22:42,513 - INFO - Verification passed for test case TC-005
+2026-04-24 11:22:42,513 - INFO - Checking test case TC-006 linked to requirement REQ-117.130-002A
+2026-04-24 11:22:42,513 - INFO - Verification passed for test case TC-006
+2026-04-24 11:22:42,513 - INFO - Checking test case TC-007 linked to requirement REQ-117.130-002B
+2026-04-24 11:22:42,513 - INFO - Verification passed for test case TC-007
+2026-04-24 11:22:42,513 - INFO - Checking test case TC-008 linked to requirement REQ-117.130-002C
+2026-04-24 11:22:42,513 - INFO - Verification passed for test case TC-008
+2026-04-24 11:22:42,513 - INFO - Checking test case TC-009 linked to requirement REQ-117.130-002A
+2026-04-24 11:22:42,513 - INFO - Verification passed for test case TC-009
+2026-04-24 11:22:42,513 - INFO - Verification completed successfully

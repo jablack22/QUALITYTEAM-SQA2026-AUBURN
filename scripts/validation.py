@@ -17,6 +17,7 @@ logging.info("Validation started")
 
 with open(REQ_FILE) as f:
     reqs = json.load(f)
+
     logging.info("Loaded requirements.json successfully")
 
 with open(STRUCTURE_FILE) as f:
@@ -34,7 +35,7 @@ for parent, expected_ids in expected.items():
             suffix = r["requirement_id"][-1]
             found.append(suffix)
             logging.info(f"Found child requirement {r['requirement_id']} with suffix {suffix}")
-
+    
     for e in expected_ids:
         if e not in found:
             logging.error(f"Validation failed: missing requirement suffix {e} under parent {parent}")
