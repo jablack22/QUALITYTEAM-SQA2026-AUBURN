@@ -1,0 +1,25 @@
+SQA2026 Quality Team Group Report
+
+Jack Blackmon
+- Activities I performed:
+  - 
+- What I've learned: 
+  - 
+
+Maxwell Achanti
+- Activities I performed:
+  - 
+- What I've learned: 
+  - 
+
+SJ Han
+- Activities I performed:
+  - 
+- What I've learned: 
+  - 
+
+Rayce Giles
+- Activities I performed:
+  - I implemented the test case generation for the project, seen in generate_test_cases.py.
+- What I've learned: 
+  - I learned how to tailor test cases for LLM generation and processing.
