@@ -14,9 +14,9 @@ Maxwell Achanti
 
 SJ Han
 - Activities I performed:
-  - 
-- What I've learned: 
-  - 
+  - I implemented the verification and validation scripts and integrated forensic logging.
+- What I've learned:
+  - I learned how to ensure requirement consistency and apply logging in CI workflows.
 
 Rayce Giles
 - Activities I performed:
