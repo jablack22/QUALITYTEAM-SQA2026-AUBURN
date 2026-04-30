@@ -8,9 +8,9 @@ Jack Blackmon
 
 Maxwell Achanti
 - Activities I performed:
-  - 
+  - .
 - What I've learned: 
-  - 
+  - .
 
 SJ Han
 - Activities I performed:
