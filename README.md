@@ -1,5 +1,20 @@
 SQA2026 Quality Team Group Report
 
+Reproducability (Windows, from project root):
+- python scripts/generate_requirements.py -i "Input_CFR_File/CFR-117.130.md" -o "output.json" -c "21 CFR 117.130"
+- python scripts/generate_test_cases.py requirements.json expected_structure.json test_cases.json
+- python scripts/validation.py
+- python scripts/verification.py
+
+Reproducability (Mac, from project root):
+- python3 script_name.py
+- python3 scripts/generate_test_cases.py requirements.json expected_structure.json test_cases.json
+- python3 scripts/validation.py
+- python3 scripts/verification.py
+
+Objectives:
+- The objectives of this project are to develop a CI/CD pipeline for the verification and validation of requirements, ensuring that the generated test cases are consistent with the specified requirements and that the results are logged for traceability.
+
 Jack Blackmon
 - Activities I performed:
   - I built the GitHub Actions CI/CD pipeline seen in .github/workflows.
