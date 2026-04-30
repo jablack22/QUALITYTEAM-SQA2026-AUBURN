@@ -1,6 +1,7 @@
 **SQA2026 Quality Team Group Report**
 
 **Reproducability**
+
 Windows (from project root):
 - python scripts/generate_requirements.py -i "Input_CFR_File/CFR-117.130.md" -o "output.json" -c "21 CFR 117.130"
 - python scripts/generate_test_cases.py requirements.json expected_structure.json test_cases.json
@@ -14,11 +15,13 @@ Mac (from project root):
 - python3 scripts/verification.py
 
 **End Result:**
+
 Expected files produced: 
 - output.json: A list of generated requirements from the input CFR file
 - test_cases.json: A list of generated test cases
 - expected_structure.json: The expected structure of the generated requirements and test cases, used for validation
 - forensics.log: A log file containing the results of the validation and verification processes, including any discrepancies found and the final outcomes of each step.
+
 Expected logs (printed in terminal):
 - "Saved 10 requirements -> output.json"
 - "Validation Passed"
